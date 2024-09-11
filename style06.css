@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+.first-p1{
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+span{
+    color: #d05773;
+}
+.first-div1{
+    text-align: center;
+    width: 750px;
+    border: 3px solid #087e09 ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 25px;
+}
+.text-container{
+    width: 800px;
+    background-color: #e5e9ed;
+    padding-top: 18px;
+    margin-left: 12px;
+    margin-top: 40px;
+    padding-bottom: 18px;
+}
+.text-container .main-container{
+    background-color: white;
+    margin-left: 22px;
+    margin-right: 22px;
+    border-left: 3px solid #10ae77 ;
+
+}
+.text-container .example{
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
+.text-container .main-container .p1{
+    padding-left: 10px;
+    color: #b36a69;
+}
+.text-container .main-container .p2{
+    padding-left: 25px;
+    color: #ee5f5a;
+}
+.text-container .main-container .p3{
+    padding-left: 25px;
+    color: #ee5f5a;
+}
+.text-container .main-container .p4{
+    padding-left: 10px;
+}
+.finally{
+    width: 110px;
+    background-color: #01ac6d;
+    color: white;
+    margin-top: 15px;
+    margin-left: 18px;
+   
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}

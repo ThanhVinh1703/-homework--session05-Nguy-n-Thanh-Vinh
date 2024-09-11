@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.content1{
+    padding: 20px;   
+}
+.row-bd-bottom{
+    border-bottom: 1px solid #e3e3e3;
+}
+.container .content1:last-child{
+    text-align: right;
+}
+.container .content1:last-child button{
+    padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: blue;
+}    
+.container .content1:first-child{
+    position: relative;
+
+}
+.container .content1:first-child span{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  
+}

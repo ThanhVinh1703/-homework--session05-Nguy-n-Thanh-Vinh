@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.accorrdion-container{
+    width: 700px;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+}
+.accorrdion-1{
+    color: #2a71d4;
+    background-color:#e9f2ff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.content{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border: 1px solid #eeeeee;
+}
+.accorrdion-2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border: 1px solid #eeeeee;
+}
+.accorrdion-3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border: 1px solid #eeeeee;
+}
+
+.accorrdion-container .accorrdion-1:first-child{
+    position: relative;
+}
+.accorrdion-container .accorrdion-1:first-child span{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.accorrdion-container .accorrdion-3:first-child{
+    position: relative;
+}
+.accorrdion-container .accorrdion-3:first-child span{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.accorrdion-container .accorrdion-2{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.accorrdion-container .accorrdion-3{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
